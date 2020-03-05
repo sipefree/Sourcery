@@ -8,7 +8,7 @@ let package = Package(
        .macOS(.v10_11),
     ],
     products: [
-        .executable(name: "sourcery", targets: ["Sourcery"]),
+        .executable(name: "Sourcery", targets: ["Sourcery"]),
         .library(name: "SourceryRuntime", targets: ["SourceryRuntime"]),
         .library(name: "SourceryJS", targets: ["SourceryJS"]),
         .library(name: "SourcerySwift", targets: ["SourcerySwift"]),
